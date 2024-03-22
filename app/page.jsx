@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -66,11 +67,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <footer className="flex flex-col w-full items-center px-2 py-6 bg-[#12141d]">
-        <p className="text-gray-400">
-          Copyright © 2024 Tour GPT - All Rights Reserved.
-        </p>
-      </footer>
+      <Footer />
     </>
   );
 }
