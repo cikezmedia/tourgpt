@@ -24,7 +24,7 @@ export default function Home() {
         </div>
       </section>
       <section className="bg-gray-600 p-4 py-16 w-full mt-28">
-        <div className="flex flex-col-reverse gap-6 md:gap-0 md:flex-row mx-auto max-w-6xl items-center justify-between">
+        <div className="flex flex-col-reverse gap-6 md:flex-row mx-auto max-w-6xl items-center justify-between">
           <div className="flex flex-col gap-5 md:w-1/2 w-full">
             <h1 className="flex font-extrabold text-2xl md:text-3xl max-w-lg">
               We have helped so many people plan their Travels in the past
