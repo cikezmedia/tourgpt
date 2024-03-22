@@ -39,7 +39,7 @@ const Navbar = () => {
         </div>
       </nav>
       {show && (
-        <ul className="absolute md:hidden p-10 z-10 flex flex-col bg-[#2B59FF] w-full gap-6 font-medium">
+        <ul className="absolute md:hidden p-10 z-50 flex flex-col bg-[#2B59FF] w-full gap-6 font-medium">
           <Link className="cursor-pointer text-lg" href="/chat">
             Chat
           </Link>

@@ -8,7 +8,7 @@ export default function Home() {
       <div className="absolute">
         <div className="bgShape1 bgTeal opacity50 bgBlur"></div>
       </div>
-      <section className="flex flex-col max-w-3xl text-center z-50 py-24 gap-5 px-4">
+      <section className="flex flex-col max-w-3xl text-center z-20 py-24 gap-5 px-4">
         <h1 className="font-extrabold text-5xl leading-tight">
           Do You Plan To Travel But Don't Know Where To Visit ?
         </h1>
