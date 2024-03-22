@@ -5,7 +5,12 @@ import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <>
-      <section className="flex flex-col max-w-3xl text-center py-24 gap-5 px-4">
+      <div className="absolute flex">
+        <div className="bgShape1 bgTeal opacity50 bgBlur"></div>
+        <div className="bgShape2 bgPrimary opacity50 bgBlur"></div>
+        <div className="bgShape1 bgPurple opacity50 bgBlur"></div>
+      </div>
+      <section className="flex flex-col max-w-3xl z-50 text-center py-24 gap-5 px-4">
         <h1 className="font-extrabold text-5xl leading-tight">
           Do You Plan To Travel But Don't Know Where To Visit ?
         </h1>
