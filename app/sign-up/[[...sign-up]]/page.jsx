@@ -1,7 +1,7 @@
 import { SignUp } from "@clerk/nextjs";
 const SignupPage = () => {
   return (
-    <div className="py-20">
+    <div className="flex flex-col mt-14 md:mt-24 justify-center">
       <SignUp />
     </div>
   );

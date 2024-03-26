@@ -11,7 +11,7 @@ const Navbar = () => {
   const { user } = useClerk();
   return (
     <>
-      <nav className="flex justify-between items-center w-full mx-auto py-4 px-4 max-w-6xl">
+      <nav className="relative top-0 flex justify-between items-center w-full mx-auto py-4 px-4 max-w-6xl">
         <Link className="cursor-pointer" href="/">
           <Image
             src="/logo.png"

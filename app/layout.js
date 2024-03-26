@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
     <ClerkProvider>
       <html lang="en">
         <body className={inter.className}>
-          <main className="relative flex flex-col min-h-screen items-center justify-between">
+          <main className="flex flex-col items-center justify-between">
             <Navbar />
             {children}
           </main>
