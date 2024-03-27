@@ -2,6 +2,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import { ClerkProvider } from "@clerk/nextjs";
+import Providers from "./Providers";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -24,10 +25,12 @@ export default function RootLayout({ children }) {
           sizes="32x32"
         />
         <body className={inter.className}>
-          <main className="flex flex-col items-center">
-            <Navbar />
-            {children}
-          </main>
+          <Providers>
+            <main className="flex flex-col items-center">
+              <Navbar />
+              {children}
+            </main>
+          </Providers>
         </body>
       </html>
     </ClerkProvider>
